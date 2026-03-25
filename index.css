@@ -105,3 +105,41 @@ a {
 a:hover {
     opacity: 0.8;
 }
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .band-promo {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .biography-section,
+    .members-header,
+    .members-list,
+    .contact-section {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+}
