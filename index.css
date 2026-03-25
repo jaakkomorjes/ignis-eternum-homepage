@@ -1,0 +1,107 @@
+:root {
+    --bg-color: #000000;
+    --text-color: #d1cdcd;
+    --accent-color: #9a9da0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: var(--accent-color);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem 0 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.logo {
+    max-width: 400px;
+    margin-bottom: 1rem;
+}
+
+.band-promo {
+    max-width: 800px;
+    margin-bottom: 1rem;
+}
+
+.biography-section {
+    max-width: 600px;
+    padding: 1.5rem;
+    margin: 0 auto 1.5rem;
+}
+
+.members-header {
+    max-width: 600px;
+    padding: 0.5rem;
+    margin: 0 auto 0.5rem;
+}
+
+.members-header p {
+    margin: 0;
+}
+
+.members-list {
+    max-width: 600px;
+    padding: 1.5rem;
+    margin: 0 auto 1.5rem;
+}
+
+.members-list ul {
+    list-style: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.members-list li {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+}
+
+.contact-section {
+    max-width: 600px;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
