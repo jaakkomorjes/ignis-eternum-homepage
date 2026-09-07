@@ -48,6 +48,19 @@ h3 {
     margin-bottom: 1rem;
 }
 
+.bit-widget-wrapper {
+    max-width: 800px; /* match .band-promo */
+    width: 100%;
+    margin: 0 auto 1rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.bit-widget-wrapper .bit-widget-initializer {
+    display: block;
+    width: 100%;
+}
+
 .spotify-embed {
     max-width: 800px;
     width: 100%;
