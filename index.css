@@ -45,14 +45,17 @@ h3 {
 
 .band-promo {
     max-width: 800px;
-    margin-bottom: 1rem;
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto 1rem;
 }
 
 .bit-widget-wrapper {
     max-width: 800px; /* match .band-promo */
     width: 100%;
     margin: 0 auto 1rem;
-    padding: 0 1rem;
+    padding: 0; /* align edges with band-promo */
     box-sizing: border-box;
 }
 
@@ -65,7 +68,12 @@ h3 {
     max-width: 800px;
     width: 100%;
     margin: 0 auto 1.5rem;
-    padding: 0 1rem;
+    padding: 0; /* align edges with band-promo */
+}
+
+.spotify-embed iframe {
+    display: block;
+    width: 100%;
 }
 
 .upcoming-shows {
