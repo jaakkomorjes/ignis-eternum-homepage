@@ -23,21 +23,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="logo.png" alt="Logo" class="logo">
-    
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+        <img src="logo.png" alt="Ignis Eternum logo" class="logo">
+        <h1>IGNIS ETERNUM</h1>
+    </header>
+
+    <main id="main">
+
     <div class="biography-section">
         <p>Ignis Eternum draws its listeners into the depths of dark melodic death metal. The music is a blend of mysticism, grandiosity, and a harsh soundscape, all intertwined with classical vocals. The band draws its lyrical inspiration from Norse mythology.
 
 Ignis Eternum was formed in the Tampere region in 2018. The first EP was released in 2019, after which, years later, their debut album "Beginning of the End" saw the light of day in 2024. The band is currently working hard on new material, which will be heard at upcoming gigs in the near future.</p>
     </div>
-    <div class="spotify-embed">
-        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/0MZPgnh1yNBG2jSXENLmQD?utm_source=generator&si=886b85d8ca3d4894" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div class="spotify-embed" role="region" aria-label="Spotify player">
+        <iframe title="Spotify — Ignis Eternum" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/0MZPgnh1yNBG2jSXENLmQD?utm_source=generator&si=886b85d8ca3d4894" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
     
     <div class="members-header">
-        <p>From right to left,</p>
+        <p>From right to left, Ignis Eternum is</p>
     </div>
-        <h1>IGNIS ETERNUM</h1>
     <div class="members-list">
         <ul>
             <li>Teemu Mäkinen - Vocals</li>
@@ -50,12 +56,11 @@ Ignis Eternum was formed in the Tampere region in 2018. The first EP was release
   
     </div>
 
-         <img src="bandpromo.jpg" alt="Band Promo" class="band-promo">
+         <img src="bandpromo.jpg" alt="Ignis Eternum band photo" class="band-promo">
 
 
                <h2>UPCOMING SHOWS</h2>
-        <!-- Bandsintown widget: placed above CONTACT and sized to band promo width -->
-        <div class="bit-widget-wrapper">
+        <div class="bit-widget-wrapper" role="region" aria-label="Bandsintown events">
             <script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
             <a class="bit-widget-initializer"
                 data-artist-name="id_15659159"
@@ -73,23 +78,26 @@ Ignis Eternum was formed in the Tampere region in 2018. The first EP was release
                 data-bit-logo-color="rgba(209,205,205,1)">
             </a>
         </div>
-
         <h2>CONTACT</h2>
      <div class="contact-section">
-        <p>Contact us at: igniseternumband@gmail.com<br />
+        <p>Contact us at: <a href="mailto:igniseternumband@gmail.com">igniseternumband@gmail.com</a><br />
         Or DM us on social media</p>
 
         <p>Find our social media profiles and Spotify at <br />
-            <a href="https://linktr.ee/IgnisEternum" target="_blank">https://linktr.ee/IgnisEternum</a></p>
+            <a href="https://linktr.ee/IgnisEternum" target="_blank" rel="noopener noreferrer">https://linktr.ee/IgnisEternum</a></p>
      </div>
 
 
+    </main>
+
+    <footer>
      <h3>THANKS TO</h3>
      <div class="members-list">
         <ul>
             <li>Petri Sara - Promotional picture</li>
             <li>Hanna Enqvist - Logo</li>
         </ul>
-    </div>   
+    </div>
+    </footer>
 </body>
 </html>
